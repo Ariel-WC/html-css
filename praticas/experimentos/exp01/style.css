@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(81, 227, 147);
+}
+
+article {
+    padding: 5px;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(248, 200, 220);
+}
+
+input#num1txt, input#num2txt {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+input#igual {
+    width: 100px;
+    height: 85px;
+    font-size: 40px;
+    text-align: center;
+}
+
+div#tela {
+    margin: 10px;
+    height: 50px;
+    width: 280px;
+    background-color: rgb(63, 115, 63);
+}
+
+div#res {
+    font: normal 20pt bold;
+    font-family: Helvetica, sans-serif;
+}

@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+p {
+    font-weight: 600;
+    margin: 3px;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav {
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+    box-shadow: -2px 2px 0px #0000003d;
+}
+
+nav > a {
+    font-weight: 600;
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+}
+
+nav > a:visited {
+    color: rgb(95, 95, 95);
+}
+
+nav > a:hover, nav > a:active {
+    color: black;
+    font-weight: 700;
+}
+
+main {
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: -2px 2px 0px #0000003d;
+    border-radius: 10px 0px;
+}
+
+section {
+    margin-top: 10px;
+    text-indent: 10px;
+    background-color: rgba(206, 206, 206, 0.453);
+    box-shadow: -2px 2px 4px 0px #00000070;
+}
+
+section > p {
+    padding-top: 10px;
+    text-align: center;
+}
+
+article {
+    background-color: lightgray;
+}
+
+article > aside {
+    background-color: rgb(192, 192, 192);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}

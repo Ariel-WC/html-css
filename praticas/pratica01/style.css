@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-frame {
+    background-color: #F0F2F5;
+}
+
+img#facebook-logo {
+    height: 75px;
+}
+
+.login-box {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    margin: auto;
+}

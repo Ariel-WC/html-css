@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;500;800&display=swap');
+
+:root {
+    /*Cores*/
+    --cor01: #F0FFFF;
+    --cor02: cyan;
+    --cor03: deepskyblue;
+    /*Fontes*/
+    --fonte-destaque: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor01);
+}
+
+nav {
+    background-color: var(--cor03);
+    
+}
+
+nav a {
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+}
+
+main img {
+    width: 100%;
+}
+
+header {
+
+}
+
+header h1 {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+}
+
